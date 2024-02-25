@@ -1,0 +1,614 @@
+
+.logo{
+    font-family: '911 Porscha', sans-serif;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.content{
+    position: absolute;
+    top: 47%;
+    left: 38%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.h1{
+    font-size: 90px;
+}
+
+.button{
+    position: absolute;
+    top: 73%;
+    left: 14%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.macan{
+    width: 100%;
+    min-width: 54px;
+    min-height: 54px;
+    box-sizing: border-box;
+    outline: 0px;
+    text-align: start;
+    appearance: none;
+    text-decoration: none;
+    border: 2px solid rgb(251, 252, 255);
+    border-radius: 4px;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: transparent;
+    color: rgb(251, 252, 255);
+    font: 400 1rem / calc(6px + 2.125ex) "Porsche Next", "Arial Narrow", Arial, "Heiti SC", SimHei, sans-serif;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    transition: background-color var(--p-transition-duration, 0.25s) cubic-bezier(0.25,0.1,0.25,1), border-color var(--p-transition-duration, 0.25s) cubic-bezier(0.25,0.1,0.25,1), color var(--p-transition-duration, 0.25s) cubic-bezier(0.25,0.1,0.25,1);
+    padding: 13px 26px;
+    gap: 8px
+}
+
+.container-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container-wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        
+    }
+
+    .card2{
+        left: -8px;
+    }
+
+    .content{
+        display: flex;
+        top: 35%;
+        left: 33%;
+    }
+
+    .h1{
+        font-size: 3rem;
+    }
+
+
+    .button{
+        position: absolute;
+        width: 100%;
+        top: 63%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+    }
+
+    .macan{
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 568px) {
+    .content{
+        display: flex;
+        top: 35%;
+        left: 34%;
+    }
+
+    .h1{
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .content{
+        display: flex;
+        top: 30%;
+        left: 35%;
+    }
+
+    .h1{
+        font-size: 2.0rem;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .content{
+        display: flex;
+        top: 30%;
+        left: 35%;
+    }
+
+    .h1{
+        font-size: 2.0rem;
+    }
+}
+
+.card{
+    max-width: 340px;
+    height: calc(303 300 /1275);
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.card:last-child{
+    margin-right: 0;
+}
+
+.image-card{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.30s;
+}
+
+.image-card:hover {
+    transform: scale(1.1);
+}
+
+.text{
+    position: absolute;
+    max-inline-size: 500px;
+    top: 80%;
+    left: 6%;
+    color: white;
+    font-family:"Roboto Slab", serif;
+}
+
+svg{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 80%;
+    left: 90%;
+    color: white;
+    cursor: pointer;
+}
+
+svg:hover{
+    background-color: rgb(165, 165, 165);
+}
+
+
+h2{
+    display: flex;
+    font-size: 3rem;
+    padding: 3rem 0;
+    color: black;
+    justify-content: center;
+}
+
+
+.containers-carros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.modelos-carros {
+    width: 35%; 
+    margin-bottom: 20px; 
+    border-radius: 30%;
+}
+
+.carros {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    border-radius: 14px;
+    background-size: cover;
+    transition: 0.30s;
+}
+
+.carros:hover {
+    transform: scale(1.1);
+}
+
+
+.p{
+    font-family: '911 Porscha', sans-serif;
+    position: absolute;
+    padding: 1%;
+    left: 15%;
+    z-index: 9999;
+    font-size: 2rem;
+    color: white;
+}
+
+.description{
+    z-index: 9999;
+    position: absolute;
+    left: 16%;
+    top: 217%;
+    color: white;
+    font-size:1.6rem;
+    width: 500px;  
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+
+.configuracao{
+    position: absolute;
+    top: 228%;
+    left: 20%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.config{
+    width: 350%;
+    max-width: 400%;
+    box-sizing: border-box;
+    outline: 0%;
+    text-align: center;
+    appearance: none;
+    text-decoration: none;
+    border: 2px solid rgb(251, 252, 255);
+    border-radius: 4px;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: white;
+    color: black;
+    font: 400 1rem / calc(6px + 2.125ex) "Porsche Next", "Arial Narrow", Arial, "Heiti SC", SimHei, sans-serif;
+    hyphens: auto;
+    padding: 10px 26px;
+    gap: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.config:hover{
+    background-color: #4A4A4A;
+}
+
+.todos-modelos{
+    position: absolute;
+    top: 235%;
+    left: 21%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.todos-modelos-carros{
+    width: 292%;
+    max-width: 300%;
+    box-sizing: border-box;
+    outline: 0%;
+    text-align: center;
+    appearance: none;
+    text-decoration: none;
+    border: 2px solid rgb(251, 252, 255);
+    border-radius: 4px;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: transparent;
+    color: white;
+    font: 400 1rem / calc(6px + 2.125ex) "Porsche Next", "Arial Narrow", Arial, "Heiti SC", SimHei, sans-serif;
+    hyphens: auto;
+    padding: 10px 26px;
+    gap: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.todos-modelos-carros:hover{
+    background-color: #4A4A4A;
+}
+
+.modelo-911{
+    font-family: '911 Porscha', sans-serif;
+    position: absolute;
+    padding: 1%;
+    z-index: 9999;
+    font-size: 2rem;
+    color: white;
+}
+
+.description-911{
+    z-index: 9999;
+    position: absolute;
+    text-align: center;
+    top: 217%;
+    left: 52%;
+    color: white;
+    font-size:1.6rem;
+    width: 500px;  
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+    
+}
+
+.configuracao-911{
+    position: absolute;
+    top: 228%;
+    left: 57.4%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.configurar-911{
+    width: 350%;
+    max-width: 400%;
+    box-sizing: border-box;
+    outline: 0%;
+    text-align: center;
+    appearance: none;
+    text-decoration: none;
+    border: 2px solid rgb(251, 252, 255);
+    border-radius: 4px;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: white;
+    color: black;
+    font: 400 1rem / calc(6px + 2.125ex) "Porsche Next", "Arial Narrow", Arial, "Heiti SC", SimHei, sans-serif;
+    hyphens: auto;
+    padding: 10px 26px;
+    gap: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.configurar-911:hover{
+    background-color: #4A4A4A;
+}
+
+.todos-modelos-911{
+    position: absolute;
+    top: 235%;
+    left: 58.2%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.modelos-911{
+    width: 295%;
+    max-width: 300%;
+    box-sizing: border-box;
+    outline: 0%;
+    text-align: center;
+    appearance: none;
+    text-decoration: none;
+    border: 2px solid rgb(251, 252, 255);
+    border-radius: 4px;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: transparent;
+    color: white;
+    font: 400 1rem / calc(6px + 2.125ex) "Porsche Next", "Arial Narrow", Arial, "Heiti SC", SimHei, sans-serif;
+    hyphens: auto;
+    padding: 10px 26px;
+    gap: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.modelos-911:hover{
+    background-color: #4A4A4A;
+}
+
+.taycan{
+    font-family: '911 Porscha', sans-serif;
+    position: absolute;
+    padding: 1%;
+    z-index: 9999;
+    font-size: 2rem;
+    color: white;
+}
+
+.description-taycan{
+    z-index: 9999;
+    position: absolute;
+    left: 16%;
+    top: 307%;
+    color: white;
+    font-size:1.6rem;
+    width: 500px;  
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+.configuracao-taycan{
+    position: absolute;
+    top: 319%;
+    left: 20.6%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.configurar-taycan{
+    width: 311%;
+    max-width: 400%;
+    box-sizing: border-box;
+    outline: 0%;
+    text-align: center;
+    appearance: none;
+    text-decoration: none;
+    border: 2px solid rgb(251, 252, 255);
+    border-radius: 4px;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: white;
+    color: black;
+    font: 400 1rem / calc(6px + 2.125ex) "Porsche Next", "Arial Narrow", Arial, "Heiti SC", SimHei, sans-serif;
+    hyphens: auto;
+    padding: 10px 26px;
+    gap: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.configurar-taycan:hover{
+    background-color: #4A4A4A;
+}
+
+.todos-modelos-taycan{
+    position: absolute;
+    top: 325%;
+    left: 21.5%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.modelos-taycan{
+    width: 264%;
+    max-width: 300%;
+    box-sizing: border-box;
+    outline: 0%;
+    text-align: center;
+    appearance: none;
+    text-decoration: none;
+    border: 2px solid rgb(251, 252, 255);
+    border-radius: 4px;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: transparent;
+    color: white;
+    font: 400 1rem / calc(6px + 2.125ex) "Porsche Next", "Arial Narrow", Arial, "Heiti SC", SimHei, sans-serif;
+    hyphens: auto;
+    padding: 10px 26px;
+    gap: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.modelos-taycan:hover{
+    background-color: #4A4A4A;
+}
+
+.panamera{
+    font-family: '911 Porscha', sans-serif;
+    position: absolute;
+    padding: 1%;
+    z-index: 9999;
+    font-size: 2rem;
+    color: white;
+}
+
+.description-parnamera{
+    z-index: 9999;
+    position: absolute;
+    text-align: center;
+    top: 312%;
+    left: 52%;
+    color: white;
+    font-size:1.6rem;
+    width: 500px;  
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+.configuracao-panamera{
+    position: absolute;
+    top: 319%;
+    left: 57.4%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.configurar-panamera{
+    width: 280%;
+    max-width: 400%;
+    box-sizing: border-box;
+    outline: 0%;
+    text-align: center;
+    appearance: none;
+    text-decoration: none;
+    border: 2px solid rgb(251, 252, 255);
+    border-radius: 4px;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: white;
+    color: black;
+    font: 400 1rem / calc(6px + 2.125ex) "Porsche Next", "Arial Narrow", Arial, "Heiti SC", SimHei, sans-serif;
+    hyphens: auto;
+    padding: 10px 26px;
+    gap: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.todos-modelos-panamera{
+    position: absolute;
+    top: 325%;
+    left: 58.2%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.modelos-panamera{
+    width: 244%;
+    max-width: 300%;
+    box-sizing: border-box;
+    outline: 0%;
+    text-align: center;
+    appearance: none;
+    text-decoration: none;
+    border: 2px solid rgb(251, 252, 255);
+    border-radius: 4px;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: transparent;
+    color: white;
+    font: 400 1rem / calc(6px + 2.125ex) "Porsche Next", "Arial Narrow", Arial, "Heiti SC", SimHei, sans-serif;
+    hyphens: auto;
+    padding: 10px 26px;
+    gap: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 375px) {
+    .modelos-carros {
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 14px;
+        text-align: center;
+    }
+
+    .carros {
+        width: 100%;
+        border-radius: 14px;
+        background-size: cover;
+        transition: 0.30s;
+    }
+
+    .description,
+    .p,
+    .configuracao,
+    .todos-modelos,
+    .description-911,
+    .configuracao-911,
+    .todos-modelos-911,
+    .description-parnamera,
+    .configuracao-panamera,
+    .todos-modelos-panamera,
+    .description-taycan,
+    .configuracao-taycan,
+    .todos-modelos-taycan {
+        display: none; /* Oculta todos os textos e botões, exceto os nomes */
+    }
+
+    .p {
+        display: block; /* Exibe o nome do modelo 718 */
+    }
+}
+
+
+
+
+
+
